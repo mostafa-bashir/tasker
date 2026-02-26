@@ -17,15 +17,15 @@ A full-stack task management application featuring a NestJS backend and a React 
 
 ## 📺 App Demos
 
-Experience the app in action! Click the links below to view the demonstrations for each role.
+Experience the app in action! Click the thumbnails below to view the high-quality demonstrations for each role.
 
-### 👑 Admin Role
-> **[Watch Admin Demo Video](assets/demo/admin.MP4)**
-*Demonstrates full system oversight, task creation, and administrative control.*
+| 👑 Admin Role | 👤 Tasker Role |
+| :---: | :---: |
+| [![Admin Demo](assets/demo/video_placeholder_admin_1772123156353.png)](assets/demo/admin.MP4) | [![Tasker Demo](assets/demo/video_placeholder_tasker_1772123178246.png)](assets/demo/tasker.MP4) |
+| *Full control & oversight* | *Personal task management* |
 
-### 👤 Tasker Role
-> **[Watch Tasker Demo Video](assets/demo/tasker.MP4)**
-*Demonstrates personal task management and progress tracking.*
+> [!TIP]
+> **Trouble viewing the videos?** GitHub may limit previews for large files. If the link above shows a "file too big" message, you can still download the video or view it locally using the setup instructions below.
 
 ---
 
