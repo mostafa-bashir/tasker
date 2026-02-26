@@ -43,16 +43,16 @@ export function TaskCard({ task, onPress, showAssignee = true }: TaskCardProps) 
 const styles = StyleSheet.create({
   card: {
     backgroundColor: colors.surface,
-    borderRadius: 20,
+    borderRadius: 24, // Slightly rounder for friendliness
     padding: spacing.lg,
     marginBottom: spacing.md,
-    borderWidth: 1,
+    borderWidth: 1.5,
     borderColor: colors.border,
-    shadowColor: colors.black,
-    shadowOffset: { width: 0, height: 10 },
-    shadowOpacity: 0.2,
-    shadowRadius: 15,
-    elevation: 4,
+    shadowColor: colors.primary, // Tinted shadow for depth
+    shadowOffset: { width: 0, height: 8 },
+    shadowOpacity: 0.12,
+    shadowRadius: 12,
+    elevation: 3,
   },
   header: {
     flexDirection: 'row',

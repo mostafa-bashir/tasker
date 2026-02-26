@@ -5,11 +5,13 @@ import {
   ScrollView,
   StatusBar,
   TouchableOpacity,
+  ImageBackground,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useNavigation } from '@react-navigation/native';
-import { colors, spacing, typography } from '../../theme';
+import { LinearGradient } from 'expo-linear-gradient';
 import { ReactNode } from 'react';
+import { colors, spacing, typography } from '../../theme';
 
 interface ScreenLayoutProps {
   children: ReactNode;
@@ -35,8 +37,21 @@ export function ScreenLayout({
 
   return (
     <View style={styles.container}>
-      <StatusBar barStyle="light-content" backgroundColor={colors.background} />
+      <StatusBar barStyle="light-content" translucent backgroundColor="transparent" />
       
+      <ImageBackground 
+        source={require('../../../assets/bg.png')}
+        style={StyleSheet.absoluteFill}
+        resizeMode="cover"
+      >
+        <LinearGradient
+          colors={['rgba(21, 21, 37, 0.7)', 'rgba(31, 31, 53, 0.85)']}
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 1 }}
+          style={StyleSheet.absoluteFill}
+        />
+      </ImageBackground>
+
       {(title || headerContent || showBackButton) && (
         <View style={[styles.header, { paddingTop: insets.top + spacing.md }]}>
           <View style={styles.headerTextContainer}>
@@ -109,5 +124,3 @@ const styles = StyleSheet.create({
     paddingHorizontal: spacing.lg,
   },
 });
-
-
