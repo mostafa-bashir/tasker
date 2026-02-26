@@ -43,7 +43,24 @@ Experience the app in action! Click the thumbnails below to view the high-qualit
 - **API Client**: [Axios](https://axios-http.com/)
 - **Storage**: [Expo Secure Store](https://docs.expo.dev/versions/latest/sdk/securestore/) for token management
 
-## 📦 Setup and Installation
+## 📦 Handling Large Files (Git LFS)
+
+The demo videos in this repository are managed using **Git Large File Storage (LFS)** to ensure smooth performance and prevent GitHub preview issues.
+
+If you are cloning this repository for the first time or having trouble viewing videos:
+1. **Install Git LFS**: [Download here](https://git-lfs.github.com/) or run `brew install git-lfs`.
+2. **Initialize LFS**:
+   ```bash
+   git lfs install
+   ```
+3. **Pull large files**:
+   ```bash
+   git lfs pull
+   ```
+
+---
+
+## 🛠️ Setup and Installation
 
 ### Prerequisites
 - Node.js (v18 or later)
