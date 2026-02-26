@@ -15,16 +15,16 @@ A full-stack task management application featuring a NestJS backend and a React 
     - Task creators can delete their own tasks.
     - Administrators have full control over all tasks.
 
-## � App Demos
+## 📺 App Demos
 
 Experience the app in action! Below are demonstrations of the different user roles.
 
 | 👑 Admin Role | 👤 Tasker Role |
 | :---: | :---: |
-| ![Admin Demo](assets/demo/admin.MP4) | ![Tasker Demo](assets/demo/tasker.MP4) |
+| <video src="assets/demo/admin.MP4" width="300" controls muted></video> | <video src="assets/demo/tasker.MP4" width="300" controls muted></video> |
 | *Full control & oversight* | *Personal task management* |
 
-## �🛠️ Technology Stack
+## 🛠️ Technology Stack
 
 ### Backend
 - **Framework**: [NestJS](https://nestjs.com/)
