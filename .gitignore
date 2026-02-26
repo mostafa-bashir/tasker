@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+mobile/node_modules/
+backend/node_modules/
+
+# Build and Output
+dist/
+build/
+web-build/
+mobile/dist/
+backend/dist/
+
+# Expo
+.expo/
+mobile/.expo/
+expo-env.d.ts
+mobile/expo-env.d.ts
+
+# Environment Files
+.env
+backend/.env
+backend/.env.test
+
+# OS and IDE Files
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+backend/npm-debug.log*
+
+# Native foldes (if any)
+mobile/ios/
+mobile/android/
+
+# Other
+*.tsbuildinfo
+*.pem
+*.key
+mobile/*.jks
+mobile/*.p8
+mobile/*.p12
+mobile/*.mobileprovision
